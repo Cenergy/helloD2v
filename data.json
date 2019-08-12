@@ -1133,13 +1133,7 @@
       "rateType": 0,
       "text": "不错,粥很好喝,我经常吃这一家,非常赞,以后也会常来吃,强烈推荐.",
       "avatar": "http://bbs.itany.com/uc_server/avatar.php?uid=12&size=small",
-      "recommend": [
-        "南瓜粥",
-        "皮蛋瘦肉粥",
-        "扁豆焖面",
-        "娃娃菜炖豆腐",
-        "牛肉馅饼"
-      ]
+      "recommend": ["南瓜粥", "皮蛋瘦肉粥", "扁豆焖面", "娃娃菜炖豆腐", "牛肉馅饼"]
     },
     {
       "username": "2******3",
@@ -1150,9 +1144,7 @@
       "deliveryTime": "",
       "text": "服务态度不错",
       "avatar": "http://bbs.itany.com/uc_server/avatar.php?uid=12&size=small",
-      "recommend": [
-        "扁豆焖面"
-      ]
+      "recommend": ["扁豆焖面"]
     },
     {
       "username": "3******b",
@@ -1231,9 +1223,7 @@
       "rateType": 0,
       "text": "孩子喜欢吃这家",
       "avatar": "http://bbs.itany.com/uc_server/avatar.php?uid=12&size=small",
-      "recommend": [
-        "南瓜粥"
-      ]
+      "recommend": ["南瓜粥"]
     },
     {
       "username": "3******3",

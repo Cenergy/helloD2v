@@ -16,8 +16,7 @@
               <div class="col-md-8 box-ct">
                 <h3>视频资源</h3>
                 <p>
-                  Lorem ipsum dolor sit ametconsectetur adipiscing elit.
-                  Suspendisse orci quam.
+                  Lorem ipsum dolor sit ametconsectetur adipiscing elit. Suspendisse orci quam.
                 </p>
               </div>
             </div>
@@ -30,8 +29,8 @@
               <div class="col-md-8 box-ct">
                 <h3>专业资源</h3>
                 <p>
-                  Nullam mo arcu ac molestie scelerisqu vulputate, molestie
-                  ligula gravida, tempus ipsum.
+                  Nullam mo arcu ac molestie scelerisqu vulputate, molestie ligula gravida, tempus
+                  ipsum.
                 </p>
               </div>
             </div>
@@ -47,8 +46,7 @@
               <div class="col-md-8 box-ct">
                 <h3>办公资源</h3>
                 <p>
-                  Lorem ipsum dolor sit ametconsectetur adipiscing elit.
-                  Suspendisse orci quam.
+                  Lorem ipsum dolor sit ametconsectetur adipiscing elit. Suspendisse orci quam.
                 </p>
               </div>
             </div>
@@ -61,8 +59,8 @@
               <div class="col-md-8 box-ct">
                 <h3>编程资源</h3>
                 <p>
-                  Nullam mo arcu ac molestie scelerisqu vulputate, molestie
-                  ligula gravida, tempus ipsum.
+                  Nullam mo arcu ac molestie scelerisqu vulputate, molestie ligula gravida, tempus
+                  ipsum.
                 </p>
               </div>
             </div>
@@ -89,13 +87,13 @@
 export default {};
 </script>
 <style scoped>
-@import url("../../common/css/bootstrap.min.css");
-@import url("../../common/font-awesome/css/font-awesome.min.css");
-@import url("../../common/css/general.css");
-@import url("../../common/css/custom.css");
-@import url("../../common/css/owl.carousel.css");
-@import url("../../common/css/owl.theme.css");
-@import url("../../common/css/style.css");
-@import url("../../common/css/animate.css");
-@import url("../../common/css/magnific-popup.css");
+@import url('../../common/css/bootstrap.min.css');
+@import url('../../common/font-awesome/css/font-awesome.min.css');
+@import url('../../common/css/general.css');
+@import url('../../common/css/custom.css');
+@import url('../../common/css/owl.carousel.css');
+@import url('../../common/css/owl.theme.css');
+@import url('../../common/css/style.css');
+@import url('../../common/css/animate.css');
+@import url('../../common/css/magnific-popup.css');
 </style>

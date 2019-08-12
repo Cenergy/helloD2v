@@ -20,7 +20,7 @@
                     id="InputName"
                     placeholder="请输入用户名"
                     required
-                  >
+                  />
                   <span class="input-group-addon">
                     <i class="glyphicon glyphicon-ok form-control-feedback"></i>
                   </span>
@@ -37,7 +37,7 @@
                     name="InputEmail"
                     placeholder="请输入你的邮箱"
                     required
-                  >
+                  />
                   <span class="input-group-addon">
                     <i class="glyphicon glyphicon-ok form-control-feedback"></i>
                   </span>
@@ -66,21 +66,20 @@
                 id="submit"
                 value="提交"
                 class="btn wow tada btn-embossed btn-primary pull-right"
-              >
+              />
             </div>
           </form>
 
-          <hr class="featurette-divider hidden-lg">
+          <hr class="featurette-divider hidden-lg" />
           <div class="col-md-5 col-md-push-1 address">
             <address>
               <h3>我的信息</h3>
               <p class="lead">
                 <a href>
                   深圳市
-                  <br>南山区,蛇口水湾
+                  <br />南山区,蛇口水湾
                 </a>
-                <br>Phone: 187-7091-3143
-                <br>Email: gonghaineng@gmail.com
+                <br />Phone: 187-7091-3143 <br />Email: gonghaineng@gmail.com
               </p>
             </address>
 
@@ -109,13 +108,13 @@
 export default {};
 </script>
 <style scoped>
-@import url("../../common/css/bootstrap.min.css");
-@import url("../../common/font-awesome/css/font-awesome.min.css");
-@import url("../../common/css/general.css");
-@import url("../../common/css/custom.css");
-@import url("../../common/css/owl.carousel.css");
-@import url("../../common/css/owl.theme.css");
-@import url("../../common/css/style.css");
-@import url("../../common/css/animate.css");
-@import url("../../common/css/magnific-popup.css");
+@import url('../../common/css/bootstrap.min.css');
+@import url('../../common/font-awesome/css/font-awesome.min.css');
+@import url('../../common/css/general.css');
+@import url('../../common/css/custom.css');
+@import url('../../common/css/owl.carousel.css');
+@import url('../../common/css/owl.theme.css');
+@import url('../../common/css/style.css');
+@import url('../../common/css/animate.css');
+@import url('../../common/css/magnific-popup.css');
 </style>

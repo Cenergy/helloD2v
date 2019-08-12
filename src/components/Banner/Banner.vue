@@ -16,7 +16,7 @@
       <div class="col-xs-12 text-center abcen wow fadeIn">
         <div class="button_down">
           <a class="imgcircle wow bounceInUp" data-wow-duration="1.5s" href="#whatis">
-            <img class="img_scroll" src="./img/circle.png" alt>
+            <img class="img_scroll" src="./img/circle.png" alt />
           </a>
         </div>
       </div>
@@ -65,20 +65,20 @@
 export default {
   data() {
     return {
-      msg: "hahah"
+      msg: 'hahah',
     };
-  }
+  },
 };
 </script>
 
 <style scoped>
-@import url("../../common/css/bootstrap.min.css");
-@import url("../../common/font-awesome/css/font-awesome.min.css");
-@import url("../../common/css/general.css");
-@import url("../../common/css/custom.css");
-@import url("../../common/css/owl.carousel.css");
-@import url("../../common/css/owl.theme.css");
-@import url("../../common/css/style.css");
-@import url("../../common/css/animate.css");
-@import url("../../common/css/magnific-popup.css");
+@import url('../../common/css/bootstrap.min.css');
+@import url('../../common/font-awesome/css/font-awesome.min.css');
+@import url('../../common/css/general.css');
+@import url('../../common/css/custom.css');
+@import url('../../common/css/owl.carousel.css');
+@import url('../../common/css/owl.theme.css');
+@import url('../../common/css/style.css');
+@import url('../../common/css/animate.css');
+@import url('../../common/css/magnific-popup.css');
 </style>
