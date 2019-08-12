@@ -73,13 +73,13 @@
           <hr class="featurette-divider hidden-lg" />
           <div class="col-md-5 col-md-push-1 address">
             <address>
-              <h3>我的信息</h3>
+              <h3>你提我改</h3>
               <p class="lead">
                 <a href>
-                  深圳市
-                  <br />南山区,蛇口水湾
+                  牛顿第三定律告诉我们，
+                  <br />您的意见是我的动力。
                 </a>
-                <br />Phone: 187-7091-3143 <br />Email: gonghaineng@gmail.com
+                <br />您的建议就是我的方向！
               </p>
             </address>
 

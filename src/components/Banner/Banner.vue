@@ -52,6 +52,9 @@
               <a href="#credits">资源</a>
             </li>
             <li class="menuItem">
+              <a href="#contact">反馈</a>
+            </li>
+            <li class="menuItem">
               <router-link to="/about">关于</router-link>
             </li>
           </ul>
