@@ -1,10 +1,10 @@
-# hellod3v
+# hellod2v
 
 > A Vue.js project
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
