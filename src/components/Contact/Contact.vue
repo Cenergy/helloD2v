@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col-md-6 col-md-offset-3 text-center wrap_title">
             <h2>反馈</h2>
-            <p class="lead" style="margin-top:0">提提你的建议或者意见！</p>
+            <p class="lead" style="margin-top:0">提提您的建议或者意见！</p>
           </div>
 
           <form role="form" action method="post">
