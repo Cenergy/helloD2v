@@ -12,13 +12,12 @@
             <img class="rotate" src="./img/icon/tweet.svg" alt="Generic placeholder image" />
             <h3>语音识别</h3>
             <p class="lead">
-              点击开始录音识别，<br>
+              点击开始录音识别，<br />
               再次点击即可停止录音！
-              
             </p>
             <el-input placeholder="点击话筒开始录音" v-model="input3" class="input-with-select">
-                  <el-button slot="append" icon="el-icon-mic"></el-button>
-              </el-input>
+              <el-button slot="append" icon="el-icon-mic"></el-button>
+            </el-input>
 
             <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
           </div>
@@ -28,17 +27,18 @@
             <img class="rotate" src="./img/icon/picture.svg" alt="Generic placeholder image" />
             <h3>图像识别</h3>
             <p class="lead">
-             <el-upload
-            class="upload-demo"
-            drag
-            action="https://jsonplaceholder.typicode.com/posts/"
-            multiple>
-            <i class="el-icon-upload"></i>
-            <div class="el-upload__text">
-              <p><em>点击上传</em>图片或将图片拖到此处</p>
-              <p>或者截图复制后直接<em>control+v</em></p>
-              </div>
-          </el-upload>
+              <el-upload
+                class="upload-demo"
+                drag
+                action="https://jsonplaceholder.typicode.com/posts/"
+                multiple
+              >
+                <i class="el-icon-upload"></i>
+                <div class="el-upload__text">
+                  <p><em>点击上传</em>图片或将图片拖到此处</p>
+                  <p>或者截图复制后直接<em>control+v</em></p>
+                </div>
+              </el-upload>
             </p>
             <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
           </div>
@@ -46,11 +46,11 @@
 
           <div class="col-sm-4 wow fadeInDown text-center">
             <img class="rotate" src="./img/icon/retina.svg" alt="Generic placeholder image" />
-            <h3>推荐算法</h3>
-            <p class="lead">
-              Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla
-              congolium sic ad nauseum.
-            </p>
+            <h3>人脸识别</h3>
+            <p>本功能针对那些账号与人脸绑定的用户，<br />再次访问本站可以快速登录</p>
+            <el-button type="primary" icon="el-icon-s-custom" size="medium">
+              快速登录
+            </el-button>
             <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
           </div>
           <!-- /.col-lg-4 -->
@@ -179,7 +179,13 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      input3: '',
+    };
+  },
+};
 </script>
 <style scoped>
 @import url('../../common/css/bootstrap.min.css');
