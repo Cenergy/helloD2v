@@ -26,12 +26,11 @@
           <div class="col-sm-4 wow fadeInDown text-center">
             <img class="rotate" src="./img/icon/picture.svg" alt="Generic placeholder image" />
             <h3>图像识别</h3>
-            <p class="lead">
-              <el-upload
+            <el-upload
                 class="upload-demo"
                 drag
                 action="https://jsonplaceholder.typicode.com/posts/"
-                multiple
+                multiple 
               >
                 <i class="el-icon-upload"></i>
                 <div class="el-upload__text">
@@ -39,7 +38,6 @@
                   <p>或者截图复制后直接<em>control+v</em></p>
                 </div>
               </el-upload>
-            </p>
             <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
           </div>
           <!-- /.col-lg-4 -->
@@ -83,9 +81,11 @@
           <div class="col-sm-4 wow fadeInDown text-center">
             <img class="rotate" src="./img/icon/browser.svg" alt="Generic placeholder image" />
             <h3>网络爬虫</h3>
+            点击上传含有表格的图片
             <p class="lead">
-              Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla
-              congolium sic ad nauseum.
+             <el-badge :value="1" class="item" type="primary">
+              <el-button size="small" icon="el-icon-upload">上传图片</el-button>
+            </el-badge>
             </p>
             <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
           </div>
@@ -197,4 +197,5 @@ export default {
 @import url('../../common/css/style.css');
 @import url('../../common/css/animate.css');
 @import url('../../common/css/magnific-popup.css');
+
 </style>
