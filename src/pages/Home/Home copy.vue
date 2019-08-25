@@ -17,22 +17,24 @@ import Footer from '../../components/Footer/Footer.vue';
 import $ from 'jquery';
 
 window.$ = window.jquery = window.jQuery = $;
-
+import * as hello from 'bootstrap';
+console.log('Go: hello', hello);
 import { WOW } from 'wowjs';
 window.WOW = WOW;
-
+// import { owlCarousel } from 'owlcarousel';
+console.log('Go: owlCarousel', owlCarousel);
 console.log('Go: WoW', WOW);
 export default {
   mounted() {
-    this.loadJsScript('./static/js/owl.carousel.js');
     this.loadJsScript('./static/js/bootstrap.js');
-
+    this.loadJsScript('./static/js/owl.carousel.js');
     this.loadJsScript('./static/js/script.js');
     this.loadJsScript('./static/js/stickUp.min.js');
     // 测试
 
     this.loadJsScript('./static/js/modernizr-2.6.2.min.js');
     this.loadJsScript('./static/js/jquery.corner.js');
+    this.loadJsScript('./static/js/wow.min.js');
 
     this.loadJsScript('./static/js/classie.js');
     this.loadJsScript('./static/js/uiMorphingButton_inflow.js');
