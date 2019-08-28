@@ -9,6 +9,8 @@ module.exports = {
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
+    $: true,
+    jQuery: true,
   },
   parser: 'vue-eslint-parser',
   parserOptions: {

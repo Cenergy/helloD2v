@@ -20,24 +20,26 @@ window.$ = window.jquery = window.jQuery = $;
 
 import { WOW } from 'wowjs';
 window.WOW = WOW;
+// import 'owl.carousel/dist/assets/owl.carousel.css';
+
+// import * as owl from 'owl.carousel.es6';
+import '../../../static/js/owl';
 
 console.log('Go: WoW', WOW);
 export default {
   mounted() {
-    this.loadJsScript('./static/js/owl.carousel.js');
-    this.loadJsScript('./static/js/bootstrap.js');
-
-    this.loadJsScript('./static/js/script.js');
-    this.loadJsScript('./static/js/stickUp.min.js');
-    // 测试
-
-    this.loadJsScript('./static/js/modernizr-2.6.2.min.js');
-    this.loadJsScript('./static/js/jquery.corner.js');
-
-    this.loadJsScript('./static/js/classie.js');
-    this.loadJsScript('./static/js/uiMorphingButton_inflow.js');
-    this.loadJsScript('./static/js/jquery.magnific-popup.js');
-    this.loadJsScript('./static/js/home.js');
+    $('#whatis').owlCarousel();
+    // this.loadJsScript('./static/js/owl.carousel.js');
+    // this.loadJsScript('./static/js/bootstrap.js');
+    // this.loadJsScript('./static/js/script.js');
+    // this.loadJsScript('./static/js/stickUp.min.js');
+    // // 测试
+    // this.loadJsScript('./static/js/modernizr-2.6.2.min.js');
+    // this.loadJsScript('./static/js/jquery.corner.js');
+    // this.loadJsScript('./static/js/classie.js');
+    // this.loadJsScript('./static/js/uiMorphingButton_inflow.js');
+    // this.loadJsScript('./static/js/jquery.magnific-popup.js');
+    // this.loadJsScript('./static/js/home.js');
   },
   methods: {
     loadJsScript(url) {
