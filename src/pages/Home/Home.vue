@@ -24,22 +24,27 @@ window.WOW = WOW;
 
 // import * as owl from 'owl.carousel.es6';
 import '../../../static/js/owl';
+import 'bootstrap';
+import 'stickUp/build/js/stickUp';
+import 'classie';
+import 'jquery-migrate/dist/jquery-migrate';
+import 'imports-loader?this=>window!../../../static/js/modernizr';
+import '../../../static/js/jquery.magnific-popup.js';
+import '../../../static/js/uiMorphingButton_inflow.js';
 
 console.log('Go: WoW', WOW);
 export default {
   mounted() {
-    $('#whatis').owlCarousel();
-    // this.loadJsScript('./static/js/owl.carousel.js');
-    // this.loadJsScript('./static/js/bootstrap.js');
-    // this.loadJsScript('./static/js/script.js');
-    // this.loadJsScript('./static/js/stickUp.min.js');
-    // // 测试
-    // this.loadJsScript('./static/js/modernizr-2.6.2.min.js');
-    // this.loadJsScript('./static/js/jquery.corner.js');
-    // this.loadJsScript('./static/js/classie.js');
+    jQuery(function($) {
+      $(document).ready(function() {
+        $('.navbar-default').stickUp();
+      });
+    });
+    new WOW().init();
     // this.loadJsScript('./static/js/uiMorphingButton_inflow.js');
     // this.loadJsScript('./static/js/jquery.magnific-popup.js');
-    // this.loadJsScript('./static/js/home.js');
+    this.loadJsScript('./static/js/script.js');
+    // // 测试
   },
   methods: {
     loadJsScript(url) {
