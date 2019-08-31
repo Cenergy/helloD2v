@@ -12,8 +12,8 @@
             <img class="rotate" src="./img/icon/tweet.svg" alt="Generic placeholder image" />
             <h3>语音识别</h3>
             <p class="lead">
-              点击开始录音识别，<br />
-              再次点击即可停止录音！
+              点击开始录音识别，
+              <br />再次点击即可停止录音！
             </p>
             <el-input placeholder="点击话筒开始录音" v-model="input3" class="input-with-select">
               <el-button slot="append" icon="el-icon-mic"></el-button>
@@ -27,17 +27,22 @@
             <img class="rotate" src="./img/icon/picture.svg" alt="Generic placeholder image" />
             <h3>图像识别</h3>
             <el-upload
-                class="upload-demo"
-                drag
-                action="https://jsonplaceholder.typicode.com/posts/"
-                multiple 
-              >
-                <i class="el-icon-upload"></i>
-                <div class="el-upload__text">
-                  <p><em>点击上传</em>图片或将图片拖到此处</p>
-                  <p>或者截图复制后直接<em>control+v</em></p>
-                </div>
-              </el-upload>
+              class="upload-img-recognition"
+              drag
+              action="https://jsonplaceholder.typicode.com/posts/"
+              multiple
+            >
+              <i class="el-icon-upload"></i>
+              <div class="el-upload__text">
+                <p>
+                  <em>点击上传</em>图片或将图片拖到此处
+                </p>
+                <p>
+                  或者截图复制后直接
+                  <em>control+v</em>
+                </p>
+              </div>
+            </el-upload>
             <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
           </div>
           <!-- /.col-lg-4 -->
@@ -45,10 +50,11 @@
           <div class="col-sm-4 wow fadeInDown text-center">
             <img class="rotate" src="./img/icon/retina.svg" alt="Generic placeholder image" />
             <h3>人脸识别</h3>
-            <p>本功能针对那些账号与人脸绑定的用户，<br />再次访问本站可以快速登录</p>
-            <el-button type="primary" icon="el-icon-s-custom" size="medium">
-              快速登录
-            </el-button>
+            <p>
+              本功能针对那些账号与人脸绑定的用户，
+              <br />再次访问本站可以快速登录
+            </p>
+            <el-button type="primary" icon="el-icon-s-custom" size="medium">快速登录</el-button>
             <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
           </div>
           <!-- /.col-lg-4 -->
@@ -80,12 +86,11 @@
 
           <div class="col-sm-4 wow fadeInDown text-center">
             <img class="rotate" src="./img/icon/browser.svg" alt="Generic placeholder image" />
-            <h3>网络爬虫</h3>
-            点击上传含有表格的图片
+            <h3>网络爬虫</h3>点击上传含有表格的图片
             <p class="lead">
-             <el-badge :value="1" class="item" type="primary">
-              <el-button size="small" icon="el-icon-upload">上传图片</el-button>
-            </el-badge>
+              <el-badge :value="1" class="item" type="primary">
+                <el-button size="small" icon="el-icon-upload">上传图片</el-button>
+              </el-badge>
             </p>
             <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
           </div>
@@ -138,12 +143,16 @@
             </p>
 
             <ul class="descp lead2">
-              <li><i class="glyphicon glyphicon-signal"></i> Reliable and Secure Platform</li>
+              <li>
+                <i class="glyphicon glyphicon-signal"></i> Reliable and Secure Platform
+              </li>
               <li>
                 <i class="glyphicon glyphicon-refresh"></i> Everything is perfectly orgainized for
                 future
               </li>
-              <li><i class="glyphicon glyphicon-headphones"></i> Attach large file easily</li>
+              <li>
+                <i class="glyphicon glyphicon-headphones"></i> Attach large file easily
+              </li>
             </ul>
           </div>
         </div>
@@ -166,8 +175,7 @@
                   <div class="content-style-form content-style-form-4">
                     <h2 class="morph-clone">
                       <a href="#credits">下面将是一些资源与个人信息</a>
-                    </h2>
-                    >
+                    </h2>>
                   </div>
                 </div>
               </div>
@@ -179,6 +187,7 @@
   </div>
 </template>
 <script>
+import '../../common/css/mystyle.css';
 export default {
   data() {
     return {
@@ -197,5 +206,4 @@ export default {
 @import url('../../common/css/style.css');
 @import url('../../common/css/animate.css');
 @import url('../../common/css/magnific-popup.css');
-
 </style>
