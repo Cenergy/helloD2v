@@ -11,7 +11,7 @@ import Home from '../pages/Home/Home.vue';
 import test from './test';
 
 export default new Router({
-  mode: 'history',
+  // mode: 'history',
   routes: [
     {
       path: '/',

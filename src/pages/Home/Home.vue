@@ -20,9 +20,7 @@ window.$ = window.jquery = window.jQuery = $;
 
 import { WOW } from 'wowjs';
 window.WOW = WOW;
-// import 'owl.carousel/dist/assets/owl.carousel.css';
 
-// import * as owl from 'owl.carousel.es6';
 import '../../../static/js/owl';
 import 'bootstrap';
 import 'stickUp/build/js/stickUp';
@@ -41,8 +39,6 @@ export default {
       });
     });
     new WOW().init();
-    // this.loadJsScript('./static/js/uiMorphingButton_inflow.js');
-    // this.loadJsScript('./static/js/jquery.magnific-popup.js');
     this.loadJsScript('./static/js/script.js');
     // // 测试
   },
@@ -51,25 +47,6 @@ export default {
       var script = document.createElement('script');
       script.type = 'text/javascript';
       script.src = url;
-      const head = document.getElementsByTagName('head')[0];
-      head.appendChild(script);
-    },
-    loadCssStyle(cssText) {
-      const style = document.createElement('style');
-      style.type = 'text/css';
-      style.rel = 'stylesheet';
-      const head = document.getElementsByTagName('head')[0];
-      style.innerHTML = cssText;
-      head.appendChild(style);
-    },
-    loadScriptString(code) {
-      var script = document.createElement('script');
-      script.type = 'text/javascript';
-      try {
-        script.appendChild(document.createTextNode(code));
-      } catch (ex) {
-        script.text = code;
-      }
       const head = document.getElementsByTagName('head')[0];
       head.appendChild(script);
     },
