@@ -2,7 +2,8 @@
   <div>
     <input type="button" value="happy" @click="lang" />
     <input type="button" value="stop" @click="stop" />
-    <h4>{{msg}}</h4>
+    <h4 v-color="'green'">{{ msg }}</h4>
+    <input type="text" name="hello" id="" v-focus="'10px'" />
   </div>
 </template>
 
@@ -26,6 +27,21 @@ export default {
     stop() {
       clearInterval(this.intervalID);
       this.intervalID = null;
+    },
+  },
+  directives: {
+    color: {
+      bind(el, binding) {
+        el.style.color = binding.value;
+      },
+    },
+    focus: {
+      inserted(el, binding) {
+        el.focus();
+      },
+      bind(el, binding) {
+        el.style.margin = binding.value;
+      },
     },
   },
 };
