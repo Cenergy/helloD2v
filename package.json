@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Cenergy/helloD2v#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "^3.4.1",
     "classie": "^1.0.0",
     "echarts": "^4.2.1",
